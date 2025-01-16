@@ -1,7 +1,14 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+:root {
+  --text-color: #000;
+  --title-color: #f5f506;
+  --bg-color: #f5f506;
+  --alt-bg-color: #f5f55c;
+  --padding-secton: 60px;
 }
 html {
   scroll-behavior: smooth;
@@ -9,10 +16,21 @@ html {
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-a{
+body.dark-theme {
+background-color: #01010e;
+color: #fff;
+}
+.container {
+  padding: 0 20px;
+  margin: auto;
+}
+section {
+  padding: var(--padding-secton);
+}
+a {
   text-decoration: none;
 }
-ul{
+ul {
   list-style: none;
 }
 @media (min-width: 768px) {
@@ -30,9 +48,69 @@ ul{
     width: 1170px;
   }
 }
-@media (min-width:992px) {
-  .col{
+@media (min-width: 992px) {
+  .col {
     width: 45%;
   }
-  
+}
+header {
+  position: sticky;
+  top: 0;
+  padding: 20px 0;
+  background-color: var(--bg-color);
+  border-bottom: 1px solid rgba(0 0 0 / 0.1);
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .logo a{
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 30px;
+}
+header .container nav {
+  display: flex;
+  align-items: center;
+}
+header .container nav img {
+  width: 40px;
+  margin: 0 5px;
+}
+@media (max-width: 991px) {
+  header nav ul.open{
+    display: block;
+  }
+  header nav ul{
+    position: absolute;
+    top: 81px;
+    left: 0;
+    display: none;
+    background-color: var(--bg-color);
+    width: 200px;
+    border-radius: 5px;
+
+  }
+  header nav ul li {
+    padding: 15px;
+  }
+  header nav ul li:hover{
+    background: var(--text-color);
+    color:var(--bg-color);
+  }
+}
+@media (min-width: 992px) {
+  header nav .menu-icon {
+    display: none;
+  }
+  header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+}
+header nav ul li a{
+  color: var(--text-color);
+  font-weight: bold;
 }
