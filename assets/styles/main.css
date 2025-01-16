@@ -5,9 +5,9 @@
 }
 :root {
   --text-color: #000;
-  --title-color: #f5f506;
+  --title-color: #f8f808;
   --bg-color: #f5f506;
-  --alt-bg-color: #f5f55c;
+  --alt-bg-color: #5c5c0b;
   --padding-secton: 60px;
 }
 html {
@@ -101,7 +101,7 @@ header .container nav img {
   }
 }
 @media (min-width: 992px) {
-  header nav .menu-icon {
+  header nav .toggle-icon {
     display: none;
   }
   header nav ul {
@@ -113,4 +113,35 @@ header .container nav img {
 header nav ul li a{
   color: var(--text-color);
   font-weight: bold;
+}
+section h2{
+  text-align: center;
+  font-weight: bold;
+  color: var(--title-color);
+  font-size: 30px;
+  margin: 30px 0;
+}
+section ol li{
+  background-color: var(--bg-color);
+  color: var(--title-color);
+  margin: 20px;
+}
+section ol li p{
+line-height: 1.5;
+}
+section ol li p:first-child{
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  color: var(--text-color);
+  padding: 20px;
+  border-radius: 4px;
+}
+section ol li p .count ,
+section ol li p.description{
+  padding: 10px;
+  color: #f3f383;
+  background-color: var(--alt-bg-color);
+  border-radius: 4px ;
+
 }
