@@ -5,9 +5,9 @@
 }
 :root {
   --text-color: #000;
-  --title-color: #f8f808;
-  --bg-color: #f5f506;
-  --alt-bg-color: #5c5c0b;
+  --title-color: #e76d6d;
+  --bg-color:#A94A4A;
+  --alt-bg-color: #9ea16a;
   --padding-secton: 60px;
 }
 html {
@@ -17,8 +17,10 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 body.dark-theme {
-background-color: #01010e;
-color: #fff;
+  --bg-color:#2F2223;
+  background-color:#251819;
+  --title-color:#F3F2F2;
+  --text-color:#C2BDBD;
 }
 .container {
   padding: 0 20px;
@@ -95,9 +97,8 @@ header .container nav img {
   header nav ul li {
     padding: 15px;
   }
-  header nav ul li:hover{
-    background: var(--text-color);
-    color:var(--bg-color);
+  header nav ul li a:hover{
+    color:var(--alt-bg-color);
   }
 }
 @media (min-width: 992px) {
@@ -140,7 +141,7 @@ section ol li p:first-child{
 section ol li p .count ,
 section ol li p.description{
   padding: 10px;
-  color: #f3f383;
+  color: var(--text-color);
   background-color: var(--alt-bg-color);
   border-radius: 4px ;
 
