@@ -7,7 +7,7 @@
   --text-color: #000;
   --title-color: #e76d6d;
   --bg-color:#A94A4A;
-  --alt-bg-color: #9ea16a;
+  --alt-bg-color: #F4D793;
   --padding-secton: 60px;
 }
 html {
@@ -25,9 +25,6 @@ body.dark-theme {
 .container {
   padding: 0 20px;
   margin: auto;
-}
-section {
-  padding: var(--padding-secton);
 }
 a {
   text-decoration: none;
