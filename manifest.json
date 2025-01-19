@@ -4,9 +4,9 @@
   "theme_color": "#5D8736",
   "background_color": "#5D8736",
   "display": "standalone",
-  "orientation": "",
-  "scope": "/",
-  "start_url": "/",
+  "orientation": "any",
+  "scope": "/app/",
+  "start_url": "/app/morning",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
