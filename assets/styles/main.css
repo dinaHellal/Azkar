@@ -5,8 +5,8 @@
 }
 :root {
   --text-color: #000;
-  --title-color: #e76d6d;
-  --bg-color:#A94A4A;
+  --title-color: #5D8736;
+  --bg-color:#5D8736;
   --alt-bg-color: #F4D793;
   --padding-secton: 60px;
 }
@@ -17,10 +17,11 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 body.dark-theme {
-  --bg-color:#2F2223;
-  background-color:#251819;
+  --bg-color:#1e573b;
+  background-color:#123524;
   --title-color:#F3F2F2;
   --text-color:#C2BDBD;
+  --alt-bg-color: #161616;
 }
 .container {
   padding: 0 20px;
