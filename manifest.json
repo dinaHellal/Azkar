@@ -5,8 +5,8 @@
   "background_color": "#5D8736",
   "display": "standalone",
   "orientation": "any",
-  "scope": "/",
-  "start_url": "/morning",
+  "scope": "/azkar",
+  "start_url": "/azkar/morning",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
