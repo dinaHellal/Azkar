@@ -17,7 +17,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 body.dark-theme {
-  --bg-color:#1e573b;
+  --bg-color:#312022;
   background-color:#123524;
   --title-color:#F3F2F2;
   --text-color:#C2BDBD;
