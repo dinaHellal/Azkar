@@ -1,6 +1,7 @@
 {
   "name": "Azkar",
   "short_name": "Azkar",
+  "description": "Azkar",
   "theme_color": "#5D8736",
   "background_color": "#5D8736",
   "display": "standalone",
