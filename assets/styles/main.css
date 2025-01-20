@@ -77,6 +77,7 @@ header .container nav {
 header .container nav img {
   width: 40px;
   margin: 0 5px;
+  cursor: pointer;
 }
 @media (max-width: 991px) {
   header nav ul.open{
