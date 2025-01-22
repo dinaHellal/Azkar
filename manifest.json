@@ -10,7 +10,7 @@
   "orientation": "any",
   "scope": "/",
   "start_url": "https://dinahellal.github.io/Azkar/",
-  "id":"/Azkar/" ,
+  "id":"https://dinahellal.github.io/Weather" ,
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
