@@ -8,7 +8,7 @@
   "background_color": "#5D8736",
   "display": "standalone",
   "orientation": "any",
-  "scope": "/",
+  "scope": "https://dinahellal.github.io/Azkar",
   "start_url": "https://dinahellal.github.io/Azkar/",
   "id":"https://dinahellal.github.io/Azkar" ,
   "icons": [
