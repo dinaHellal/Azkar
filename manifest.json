@@ -1,5 +1,5 @@
 {
-  "manifest_version":" 2",
+  "manifest_version": " 2",
   "version": " 1.0",
   "name": "Azkar",
   "short_name": "Azkar",
@@ -9,8 +9,8 @@
   "display": "standalone",
   "orientation": "any",
   "scope": "https://dinahellal.github.io/Azkar",
-  "start_url": "https://dinahellal.github.io/Azkar/",
-  "id":"https://dinahellal.github.io/Azkar" ,
+  "start_url": "https://dinahellal.github.io/Azkar",
+  "id": "https://dinahellal.github.io/Azkar",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
